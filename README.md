@@ -11,15 +11,25 @@ I purchased the following: Raspberry PI 3 model B, SunFounder 5V 4 Channel Relay
 
 Installed NOOBS: https://www.raspberrypi.org/downloads/noobs/ on the SD Card, then installed Raspbian full. 
 Updated and downloaded necessary components:
+  
   sudo apt-get install git-core
+  
   sudo apt-get update 
+  
   sudo apt-get upgrade
+  
   git clone git://git.drogon.net/wiringPi
+  
   cd wiringPi 
+  
   git pull origin
+  
   cd wiringPi 
+  
   ./build
-	sudo apt-get update
+
+  sudo apt-get update
+  
   sudo apt-get install apache2 php5 libapache2-mod-php5
 
 Put the index.php into /var/www/html
