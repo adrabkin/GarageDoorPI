@@ -40,5 +40,5 @@ Modify index.php to activate the pins needed. I will say that this took a little
 
 URL to actuate relay: http://ip.add.re.ss/?trigger={1,2,3} (1 for relay 1, 2 for relay 2, 3 for relay 3. For example if I want to trigger garage door 3 my URL will be http://garagepi/?trigger=3.
 
-I ended up adding my Z-Wave Tilt Sensors first, then created a custom device handler using the Z-Wave door-window sensor with HttpButton.groovy code I modified, then updated the device to use the custom device handler. This allows you to go into your tilt sensor on Smartthings to see door status and a button to actuate the relay. The first time you go to your device in Smartthings, click the gear icon to set up the http button.
+I ended up adding my Z-Wave Tilt Sensors first, then created a custom device handler using the Z-Wave door-window sensor with HttpButton.groovy code I incorporated, then updated the device to use the custom device handler. This allows you to go into your tilt sensor on Smartthings to see door status and a button to actuate the relay. The first time you go to your device in Smartthings, click the gear icon to set up the http button.
 
