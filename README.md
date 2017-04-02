@@ -32,6 +32,9 @@ Updated and downloaded necessary components:
   
   sudo apt-get install apache2 php5 libapache2-mod-php5
 
+ to set Wifi SSID and Password use: wpa_passphrase [ ssid ] [ passphrase ] 
+ Then put the psk in the /etc/wpa_supplicant/wpa_supplicant.conf file
+
 Put the index.php into /var/www/html
 
 Wire up the Pi to the Relay as shown on http://www.sampaulling.com/raspberry-pi-garage-door-opener/. If you have more than one garage door, wire up the extra pins as well.
