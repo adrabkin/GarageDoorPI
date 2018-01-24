@@ -3,7 +3,7 @@
 
 This project was gleaned from a few different sources. I will try to give credit where I can, and I sincerely apologize if I missed anyone. I will admit that most of this code is not mine, I just kluged it together.
 
-First off, I followed most of the instructions from: http://www.sampaulling.com/raspberry-pi-garage-door-opener/. I will go through some of the steps below to summarize because I didn’t follow everything to the letter.
+First off, I followed most of the instructions from: http://www.thepaullingworkshop.com/raspberry-pi-garage-door-opener/. I will go through some of the steps below to summarize because I didn’t follow everything to the letter.
 
 Used https://github.com/chancsc/SC_SmartThings/blob/master/IR-Remote/device-handler/HTTP_Button.groovy to modify the Z-Wave Door/Window sensor to add a button with a call to my raspberry pi webpage.
 
